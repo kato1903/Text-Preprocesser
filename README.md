@@ -9,7 +9,7 @@ A simple preprocessing tool for natural language processing projects.
 
 ## Parameters
 
-- lang: which language will be preprocessed English or Turkish.<br/>If you say what's the difference, the stopwords and the letter i, the difference..<br/>Example: TextPreprocesser(lang="turkish") default is english 
+- lang: which language will be preprocessed English or Turkish.<br/>If you say what's the difference, the stopwords and the letter i, the difference.<br/>Example: TextPreprocesser(lang="turkish") default is english 
 - lower: Will all characters be converted to lowercase? True or False <br/>Example: TextPreprocesser(lower=False) default is True. 
 - digits: Will Numbers be deleted? True or False. <br/>Example: TextPreprocesser(digits=False) default is True. 
 - link: Will links be deleted? True or False.  <br/>Example: TextPreprocesser(link=False) default is True. 
