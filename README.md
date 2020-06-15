@@ -6,6 +6,7 @@ A simple preprocessing tool for natural language processing projects.
 - Download TextPreprocesser.py
 - import to another file: from TextPreprocesser import TextPreprocesser
 - Create instance: TP = TextPreprocesser()
+- Review the examples below.
 
 ## Parameters
 
