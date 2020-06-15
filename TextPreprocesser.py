@@ -204,50 +204,6 @@ class TextPreprocesser:
         return new_text
 
 
-TP = TextPreprocesser(stem=False)
-
-test = "Preprocess edIlmemiş bir cümle. test için ikinci cümmle."
-
-# result1 = TP.string_to_sentence_tokenized_string_list(test)
-
-# result2 = TP.string_to_word_tokenized_string_list(test)
-
-result3 = TP.string_to_preprocessed_string(test)
-
-# result4 = TP.string_to_preprocessed_sentence_tokenized_string_list(test)
-
-# result5 = TP.string_to_preprocessed_word_tokenized_string_list(test)
-
-# print(result1)
-
-# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
- 
-# test2 = [ "Preprocess edilmemiş bir cümle.", "test için ikinci cümmle." ]
-
-# result6 = TP.sentence_tokenized_string_list_to_string(test2)
-
-# result7 = TP.sentence_tokenized_string_list_to_word_tokenized_string_list(test2)
-
-# result8 = TP.sentence_tokenized_string_list_to_preprocessed_string(test2)
-
-# result9 = TP.sentence_tokenized_string_list_to_preprocessed_sentence_tokenized_string_list(test2)
-
-# result10 = TP.sentence_tokenized_string_list_to_preprocessed_word_tokenized_string_list(test2)
-
-# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-# test3 = [ [ "Preprocess", "edilmemiş", "bir", "cümle." ] , [ "test", "için", "ikinci", "cümmle." ] ]
-
-# result12 = TP.word_tokenized_string_list_to_sentence_tokenized_string_list(test3)
-
-# result13 = TP.word_tokenized_string_list_to_string(test3)
-
-# result11 = TP.word_tokenized_string_list_to_preprocessed_word_tokenized_string_list(test3)
-
-# result14 = TP.word_tokenized_string_list_to_preprocesed_sentence_tokenized_string_list(test3)
-
-# result15 = TP.word_tokenized_string_list_to_preprocessed_string(test3)
-
 
 
 
