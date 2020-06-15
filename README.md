@@ -43,7 +43,7 @@ result2 = TP2.string_to_preprocessed_string(test)
 print(result2)
 # i am not an athenian or a greek  but a citizen of the world   diogenes
 ```
-## You can also convert between data structres.
+### You can also convert between data structres.
 
 ```python
 from TextPreprocesser import TextPreprocesser
@@ -95,4 +95,42 @@ print(TP.string_to_sentence_tokenized_string_list(plain_text))
 print(TP.sentence_tokenized_string_list_to_preprocessed_word_tokenized_string_list(list_of_text))
 # [['why', 'this', 'unbearable'], ['why', 'can', 'endure', 'you', 'embarrassed', 'answer'], ['then', 'remind', 'yourself', 'that', 'past', 'and', 'future', 'have', 'power', 'over', 'you'], ['only', 'the', 'present', 'and', 'even', 'that', 'can', 'minimized'], ['just', 'mark', 'off', 'its', 'limits']]
 
+```
+```python
+### All Functions
+
+from TextPreprocesser import TextPreprocesser
+
+TP = TextPreprocesser()
+
+#Available Functions
+TP.string_to_preprocessed_string()
+TP.string_to_sentence_tokenized_string_list()
+TP.string_to_preprocessed_sentence_tokenized_string_list()
+TP.string_to_word_tokenized_string_list()
+TP.string_to_preprocessed_word_tokenized_string_list()
+TP.sentence_tokenized_string_list_to_preprocessed_word_tokenized_string_list()
+TP.sentence_tokenized_string_list_to_word_tokenized_string_list()
+TP.sentence_tokenized_string_list_to_string()
+TP.sentence_tokenized_string_list_to_preprocessed_sentence_tokenized_string_list()
+TP.sentence_tokenized_string_list_to_preprocessed_string()
+TP.word_tokenized_string_list_to_preprocessed_word_tokenized_string_list()
+TP.word_tokenized_string_list_to_sentence_tokenized_string_list()
+TP.word_tokenized_string_list_to_preprocesed_sentence_tokenized_string_list()
+TP.word_tokenized_string_list_to_string()
+TP.word_tokenized_string_list_to_preprocessed_string()
+
+#Or Single Operations
+TP.lower_turkish()
+TP.lower_text()
+TP.remove_digits()
+TP.remove_link()
+TP.remove_punc()
+TP.stem_word()
+TP.remove_short_words()
+TP.remove_stop_words()
+TP.stem_string()
+TP.tokenize_word()
+TP.tokenize_sentence()
+TP.remove_blank() # Converts multiple spaces into single space.
 ```
