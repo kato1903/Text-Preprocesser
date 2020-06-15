@@ -96,8 +96,9 @@ print(TP.sentence_tokenized_string_list_to_preprocessed_word_tokenized_string_li
 # [['why', 'this', 'unbearable'], ['why', 'can', 'endure', 'you', 'embarrassed', 'answer'], ['then', 'remind', 'yourself', 'that', 'past', 'and', 'future', 'have', 'power', 'over', 'you'], ['only', 'the', 'present', 'and', 'even', 'that', 'can', 'minimized'], ['just', 'mark', 'off', 'its', 'limits']]
 
 ```
-```python
 ### All Functions
+```python
+
 
 from TextPreprocesser import TextPreprocesser
 
